@@ -1,0 +1,152 @@
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+a.btn {
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.blueBtn {
+  background: #3390FF;
+  color: #FFFFFF;
+  &:hover {
+    background: #117eff;
+  }
+  &:active {
+    background: #006CEE;
+  }
+}
+
+a.grayBtn {
+  color: #FFFFFF;
+  background: #888888;
+  &:hover {
+    background: #777777;
+  }
+  &:active {
+    background: #666666;
+  }
+}
+
+a.greenBtn {
+  color: #FFFFFF;
+  background: #1bad90;
+  &:hover {
+    background: #169078;
+  }
+  &:active {
+    background: #12725f;
+  } 
+}
+
+a.redBtn {
+  color: #FFFFFF;
+  background: #e87184;
+  &:hover {
+    background: #e3546b;
+  }
+  &:active {
+    background: #df3651;
+  } 
+}
+
+a.yellowBtn {
+  color: #FFFFFF;
+  background: #ffbb6d;
+  &:hover {
+    background: #ffab4b;
+  }
+  &:active {
+    background: #ff9b29;
+  } 
+}
+
+a.pinkBtn {
+  color: #FFFFFF;
+  background: #db96e2;
+  &:hover {
+    background: #d27bdb;
+  }
+  &:active {
+    background: #cd6ed7;
+  } 
+}
+
+ul.sidenav {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  a {
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    &:hover {
+      padding-left: 6px;
+    }
+    &.greenNav {
+      border-left: 6px solid #1bad90;
+      &:hover {
+        border-left: 10px solid #1bad90;
+      }
+      &:active {
+        border-left: 10px solid #12725f;
+      }
+    }
+    &.redNav {
+      border-left: 6px solid #e87184;
+      &:hover {
+        border-left: 10px solid #e87184;
+      }
+      &:active {
+        border-left: 10px solid #df3651;
+      }
+    }
+    &.yellowNav {
+      border-left: 6px solid #ffbb6d;
+      &:hover {
+        border-left: 10px solid #ffbb6d;
+      }
+      &:active {
+        border-left: 10px solid #ff9b29;
+      }
+    }
+    &.blueNav {
+      border-left: 6px solid #3390FF;
+      &:hover {
+        border-left: 10px solid #3390FF;
+      }
+      &:active {
+        border-left: 10px solid #006CEE;
+      }
+    }
+    &.pinkNav {
+      border-left: 6px solid #db96e2;
+      &:hover {
+        border-left: 10px solid #db96e2;
+      }
+      &:active {
+        border-left: 10px solid #cd6ed7;
+      }
+    }
+    &.grayNav {
+      border-left: 6px solid #888888;
+      &:hover {
+        border-left: 10px solid #888888;
+      }
+      &:active {
+        border-left: 10px solid #666666;
+      }
+    }
+  }
+}

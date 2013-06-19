@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  name: <%= @user.name %>
+</p>
+
+<p>
+  avatar: <%= image_tag @user.avatar %>
+</p>
+
+<a href="#" class="btn greenBtn mb10">button</a>
+<a href="#" class="btn redBtn mb10">button</a>
+<a href="#" class="btn yellowBtn mb10">button</a>
+<a href="#" class="btn blueBtn mb10">button</a>
+<a href="#" class="btn pinkBtn mb10">button</a>
+<a href="#" class="btn grayBtn mb10">button</a>
+
+<ul class="sidenav">
+  <li><a href="#" class="greenNav mb10 pl10">sidenav</a></li>
+  <li><a href="#" class="redNav mb10 pl10">sidenav</a></li>
+  <li><a href="#" class="yellowNav mb10 pl10">sidenav</a></li>
+  <li><a href="#" class="blueNav mb10 pl10">sidenav</a></li>
+  <li><a href="#" class="pinkNav mb10 pl10">sidenav</a></li>
+  <li><a href="#" class="grayNav mb10 pl10">sidenav</a></li>
+</ul>
+
+<!-- <p class="sidenav greenNav mb10 pl10">sometext</p>
+<p class="sidenav redNav mb10 pl10">sometext</p>
+<p class="sidenav yellowNav mb10 pl10">sometext</p>
+<p class="sidenav blueNav mb10 pl10">sometext</p>
+<p class="sidenav pinkNav mb10 pl10">sometext</p>
+<p class="sidenav grayNav mb10 pl10">sometext</p> -->
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
